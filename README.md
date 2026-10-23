@@ -44,7 +44,7 @@ With an xdelta3 front-end (such as Delta Patcher or xdelta3-gui): choose Track 0
 ### CMD style
 Use the following command:
 
-xdelta3 -d -s "Samurai Spirits - Zankurou Musouken (Japan) (Track 01).bin" "Samurai Shodown III (English) - Track 01.xdelta" "patched.bin"
+xdelta3 -d -s "Track 01.bin” “SamuraiShodown3EngActivation.xdelta” “patched.bin"
    
 ## After patching
 1. Replace the original Track 01 with the patched file, **keeping the original file name**, so the `.cue` still finds it.
