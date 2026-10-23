@@ -1,10 +1,11 @@
 # Samurai Shodown III – Zankuro Musoken - English Patch for Sega Saturn)
 English patch for **Samurai Spirits: Zankurou Musouken** (Sega Saturn, Japan).
 
-The Japanese Saturn disc of Samurai Shodown III was converted from SNK's Neo Geo arcade version. 
-The arcade original could run in Japanese or English, and the Saturn port kept a surprising amount of that English material: 
-fighter names, menus, story texts, the loading screen, even the code that switches between the two languages. 
-It simply never switches: the game always starts in Japanese.
+The Japanese Saturn disc of Samurai Shodown III was converted from SNK’s Neo Geo version. The original game could run in Japanese or English, and the Saturn port kept a surprising amount of that English material: fighter names, menus, story texts, the loading screen, even the code that switches between the two languages. It simply never switches: the game always starts in Japanese.
+
+This patch activates the English language in the main program, replaces the Japanese tiles by the English ones in various of the graphical assets and makes minor adjustments to timings, trying to match as much as possible the original game.
+
+This translation has been tested both in emulator and real hardware (2nd gen PAL Saturn with Pseudo Saturn memory cart and 60Hz switch).
 
 I admit the language barrier in this game isn't a big deal, but was the ideal scenario to test myself into hacking roms on real purpose.
 
