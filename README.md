@@ -1,7 +1,6 @@
-# Samurai Shodown III – Zankuro Musoken - English Patch for Sega Saturn)
-English patch for **Samurai Spirits: Zankurou Musouken** (Sega Saturn, Japan).
+# Samurai Shodown III: Zankuro Musoken - English Patch for Sega Saturn)
 
-The Japanese Saturn disc of Samurai Shodown III was converted from SNK’s Neo Geo version. The original game could run in Japanese or English, and the Saturn port kept a surprising amount of that English material: fighter names, menus, story texts, the loading screen, even the code that switches between the two languages. It simply never switches: the game always starts in Japanese.
+The Japanese Saturn disc of Samurai Shodown III was converted from SNK’s Neo Geo version. The original game could run in Japanese or English, and the Saturn port kept a surprising amount of that English material, enough to translate the whole game: fighter names, menus, story texts, the loading screen, even the code that switches between the two languages. It simply never switches: the game always starts in Japanese.
 
 This patch activates the English language in the main program, replaces the Japanese tiles by the English ones in various of the graphical assets and makes minor adjustments to timings, trying to match as much as possible the original game.
 
@@ -45,7 +44,9 @@ With an xdelta3 front-end (such as Delta Patcher or xdelta3-gui): choose Track 0
 ### CMD style
 Use the following command:
 
-xdelta3 -d -s "Track 01.bin” “SamuraiShodown3EngActivation.xdelta” “patched.bin"
+    xdelta3 -d -s "Track 01.bin” “SamuraiShodown3EngActivation.xdelta” “patched.bin"
+    
+(note that your Track 01 name may change)
    
 ## After patching
 1. Replace the original Track 01 with the patched file, **keeping the original file name**, so the `.cue` still finds it.
